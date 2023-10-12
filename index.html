@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Show Hidden Dropdown JS</title>
+</head>
+
+<body>
+        <label>Profil</label>
+        <select id="ProfilDropdown">
+            <option value="0">Pilih</option>
+            <option value="Pelajar">Pelajar</option>
+            <option value="Pengajar">Pengajar</option>
+            <option value="Umum">Umum</option>
+        </select>
+        <div id="spasi" style="display: none">
+            <br>
+        </div>
+        <label id="LabelStatus" style="display: none">Status</label>
+        <select name="status" id="StatusDropdown" style="display: none" required>
+            <option value="SMP/MTS SEDERAJAT" id="SMP_MTS" style="display: none">SMP/MTS SEDERAJAT</option>
+            <option value="SMA/SMK SEDERAJAT" id="SMA_SMK" style="display: none">SMA/SMK SEDERAJAT</option>
+            <option value="MAHASISWA" id="Mahasiswa" style="display: none">MAHASISWA</option>
+            <option value="Guru" id="Guru" style="display: none">Guru</option>
+            <option value="Dosen" id="Dosen" style="display: none">Dosen</option>
+            <option value="Sudah Bekerja" id="Sudah_Bekerja" style="display: none">Sudah Bekerja</option>
+            <option value="Belum Bekerja" id="Belum_Bekerja" style="display: none">Belum Bekerja</option>
+        </select>
+        <br><br>
+        
+    <script src="main.js"></script>
+</body>
+
+</html>
